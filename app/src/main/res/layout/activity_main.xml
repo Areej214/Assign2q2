@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/PaymentForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="SignIn Form"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="E-mail:"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/ed11"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:layout_toRightOf="@+id/ed1"
+        android:hint="Enter valid E-mail" />
+
+    <TextView
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Passward:"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/ed22"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/ed2"
+        android:hint="Enter Passward" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="37dp"
+        android:text="SignIn"
+        android:textSize="20dp" />
+</RelativeLayout>
